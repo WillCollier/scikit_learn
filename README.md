@@ -1,10 +1,10 @@
-# scikit_learn
+## scikit_learn
 Learning how to use Scikit-learn for a variety of tasks.
 
 Here is a list detailing what is contained within each file.
 Each file is also commented to aid understadning.
 
-## KNN.py:
+### KNN.py:
 
 This is a nearest neighbour classifier.
 It uses the classic car evaluation dataset from https://archive.ics.uci.edu/ml/datasets/Car+Evaluation 
@@ -24,7 +24,7 @@ Finally the accuracy and an example prection is shown.
 
 
 
-## SVM.py:
+### SVM.py:
 
 SVM is a classifier algorithm which is effective for smaller datasets.
 It creates a hyperplane to seperate the different classes.
@@ -38,7 +38,7 @@ The testing sample tests the accuracy.
 Finally the accuracy and an example prection is shown.
 
 
-## linear_regression.py
+### linear_regression.py
 
 This uses the sklearn module for linear regression.
 
@@ -51,7 +51,7 @@ The training sample trains the network.
 The testing sample tests the accuracy.
 The accuracy, coefficients, R^2 and example prections are printed.
 
-## Kmeans.py
+### Kmeans.py
 
 Apply a clustering model to the breast cancer dataset from sklearn.
 This has 30 features.
@@ -62,7 +62,7 @@ This is a grid search, based on moving across the co-oprdinate space, to minimis
 
 
 
-## written_number_classifier.py
+### written_number_classifier.py
 
 This uses the sklearn MLPClassifier to classify written numbers.
 
