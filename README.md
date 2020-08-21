@@ -1,7 +1,8 @@
 # scikit_learn
 Learning how to use Scikit-learn for a variety of tasks.
 
-Here is a list of each file, and what each does.
+Here is a list detailing what is contained within each file.
+Each file is also commented to aid understadning.
 
 
 KNN.py:
