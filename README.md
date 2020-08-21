@@ -8,6 +8,7 @@ KNN.py:
 
 This is a nearest neighbour classifier.
 It uses the classic car evaluation dataset from https://archive.ics.uci.edu/ml/datasets/Car+Evaluation 
+This file is saved as car.data in the directory
 
 Each car has seven traits: buying, maint, doors, persons, lug_boot, safety, class.
 
