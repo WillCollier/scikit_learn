@@ -24,8 +24,18 @@ Finally the accuracy and an example prection is shown.
 
 
 
+SVM.py:
 
+SVM is a classifier algorithm which is effective for smaller datasets.
+It creates a hyperplane to seperate the different classes.
 
+The Iris dataset has three classes (the target) and four features (sepal length/width, petal length/width)
+The classes are broken into 0, 1 and 2, with the classes list to translate back into strings.
+
+The data is split into a training sample and a test sample.
+The training sample trains the network.
+The testing sample tests the accuracy.
+Finally the accuracy and an example prection is shown.
 
 
 
