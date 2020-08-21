@@ -38,6 +38,27 @@ The testing sample tests the accuracy.
 Finally the accuracy and an example prection is shown.
 
 
+linear_regression.py
+
+This uses the sklearn module for linear regression.
+
+Firstly it is used on the Boston dataset. 
+This has 13 features and 1 target.
+The model generates a linear regression between the features and the target, returning coefficients and an intercept  (13 dimensions makes it hard to plot).
+
+The data is split into a training sample and a test sample.
+The training sample trains the network.
+The testing sample tests the accuracy.
+The accuracy, coefficients, R^2 and example prections are printed.
+
+Kmeans.py
+
+Apply a clustering model to the breast cancer dataset from sklearn.
+This has 30 features.
+
+This clustering does not require the target values to train
+Clustering: This algorithm finds a number of clusters.
+This is a grid search, based on moving across the co-oprdinate space, to minimise the distance between dataoints and the clustered centres.
 
 
 
