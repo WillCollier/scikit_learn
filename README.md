@@ -62,6 +62,20 @@ This is a grid search, based on moving across the co-oprdinate space, to minimis
 
 
 
+written_number_classifier.py
+
+This uses the sklearn MLPClassifier to classify written numbers.
+
+The process takes the mnist dataset (60000 handwritten numbers) and trains a classifier which can work with other newly created examples.
+
+The mnist dataset is split into a test and trianing set.
+Each 28x28 pixel image is flattened and normalised for use in the MLPClassifier.
+The classifier is then trained and used to identify the test set of images.
+
+There are two images in this directory, three.png and five.png. 
+These were created by me in GIMP, and can be identified using the trained network.
+
+
 
 
 
