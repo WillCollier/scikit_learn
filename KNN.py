@@ -1,17 +1,9 @@
 #KNN classifier
-
 import numpy as np
-from sklearn import datasets
 import pandas as pd
 from sklearn import neighbors, metrics
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from sklearn import svm
-from sklearn import linear_model
-import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import scale
-
 
 """
 Access the data. 
@@ -33,7 +25,7 @@ y = data[['class']]
 
 #converting strings to numbers w/ LabelEncoder
 #This is one option for changing from strings to numbers
-#This is because machine learning works with numerical values rather than strings, even if teh numbers are discrete
+#This is because machine learning works with numerical values rather than strings, even if the numbers are discrete
 Le = LabelEncoder()
 for i in range(len(X[0])):
     X[:, i] = Le.fit_transform(X[:, i])
