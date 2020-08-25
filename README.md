@@ -2,7 +2,7 @@
 Learning how to use Scikit-learn for a variety of tasks.
 
 Here is a list detailing what is contained within each file.
-Each file is also commented to aid understadning.
+Each file is also commented.
 
 ### KNN.py:
 
